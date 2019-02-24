@@ -16,6 +16,7 @@ function setup() {
 function draw() {
   background(0);
   fill(255);
+  textSize(20);
   text(name , width/2, height/2);
   text(probability, width/2, height/2 + 30);
 }
