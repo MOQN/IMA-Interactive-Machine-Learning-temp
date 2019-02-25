@@ -5,9 +5,9 @@ function setup() {
 
 
 function draw() {
-  setTimeout( () => {
+  setTimeout( function () {
     background( random(255), random(255), random(255) );
-    console.log("Anonymous Function in JS (ES6 Model)");
+    console.log("Anonymous Function in JS");
   }, 2000);
   noLoop();
 }
